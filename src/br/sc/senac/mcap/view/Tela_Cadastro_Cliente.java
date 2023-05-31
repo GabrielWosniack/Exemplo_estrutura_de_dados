@@ -10,7 +10,7 @@ public class Tela_Cadastro_Cliente {
     private JButton btnNovo;
     private JButton btnEditar;
     private JButton btnCancelar;
-    private JButton btnGravar;
+    private JButton btnSalvar;
     private JButton btnAtualizar;
     private JTextField textField1;
     private JTextField textField2;
@@ -19,8 +19,12 @@ public class Tela_Cadastro_Cliente {
     private JTable table1;
     private JRadioButton RbtnMasculino;
     private JRadioButton rbtnFeminino;
-    private JPanel pnlCadastroCliente;
-
+    private JPanel pnlClienteview;
+    private JPanel pnlDados;
+    private JPanel pnlAcoes;
+    private JPanel pnlBotoesAcao;
+    private JPanel pnlTabela;
+    
     public Tela_Cadastro_Cliente() {
         table1.addComponentListener(new ComponentAdapter() {
             @Override
